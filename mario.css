@@ -1,0 +1,102 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #87ceeb;
+    Font-family: 'Press Start 2P', cursive; 
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 5px solid #b22222;
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    z-index: 2;
+}
+
+nav {
+    background-color: #ffd700;
+    border-left: 5px solid #b8860b;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    text-align: center;
+    right: 0px;
+    padding-bottom: auto;
+    height: 100%;
+    z-index: 1;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0px;
+}
+
+li {
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #b8860b;
+}
+
+ul li p:hover {
+    color: white;
+    background-color: #ff4500;
+}
+
+main {
+    margin: 20px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f5deb3;
+    border: 5px solid #d2691e;
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.5);
+}
+
+.power {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.power li{
+    margin: 10px 0;
+    color: white;
+    background-color: #228b22;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+table, td {
+    padding: 0px;
+    border: 2px solid #d2691e;
+}
+
+td {
+    padding: 15px;
+}
+
+#item, #effect {
+    font-weight: bold;
+}
+
+#item {
+    width: 300px;
+}
+
+#effect {
+    width: 700px;
+}
+
+footer {
+    text-align: center;
+}
