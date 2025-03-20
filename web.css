@@ -1,5 +1,110 @@
 body {
-    background-image: url(./img/bg.jpg);
+    padding: 0;
+    background-image: url('./img/bg.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    float: left;
+    margin-left: 100px;
+    width: 250px;
+}
+
+.nav {
+    margin: auto;
+    margin-top: 30px;
+    width: 1350px;
+    font-size: smaller;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 20px 20px;
+}
+
+ul li:hover {
+    color: #0ec7c4;
+}
+
+ul li ul{
+    display: none;
+    background-color: white;
+    opacity: 0.8;
+    width: 190px;
+    padding: 10px;
+}
+ul li ul li{
+    display: block;
+    padding: 10px;
+}
+
+hr {
+    border-bottom: 0.5px solid lightgrey ;
+    margin: 0;
+}
+
+ul li:hover ul{
+    margin-top: 30px;
+    margin-left: -55px;
+    display: inline;
+    position: absolute;
+    color: black;
+}
+
+.prodi {
+    margin: auto;
+    margin-top: 25%;
+}
+
+table, td {
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+
+td {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pp {
+    background-color: grey;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+h4 {
+    margin: 2px;
+    font-size: medium;
+}
+
+.text {
+    font-size: smaller;
+}
+
+input {
+    margin-top: 20px;
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    width: 140px;
+}
+
+input:hover {
+    background-color: #0ec7c4;
 }

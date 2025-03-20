@@ -11,6 +11,7 @@ body {
 header {
     margin: 0;
     padding: 10px;
+    padding-bottom: 30px;
     border-bottom: 5px solid #b22222;
     background-color: #ff4500;
     color: white;
@@ -26,7 +27,6 @@ nav {
     position: fixed;
     text-align: center;
     right: 0px;
-    padding-bottom: auto;
     height: 100%;
     z-index: 1;
 }
